@@ -40,8 +40,8 @@ TEST_CASE("test Doubly_linked_list", "test1")
 int main(int argc, char **argv) {
 	List l;
 	
-	Catch::Session().run();
-	return 0;
+	
+	return Catch::Session().run();
 }
 
 
